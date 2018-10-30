@@ -3,14 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+.content {
+  margin: 0 20px;
+}
 .bg_white {
   background: white;
 }
 .bg_grey {
   background: #f3f5f9;
 }
+.bg_blue {
+  background: #0069ff;
+}
+.color_white {
+  color: white;
+}
 .color_blu {
   color: #031b4e;
+}
+.color_grey {
+  color: #757575;
 }
 .color_lightblu {
   color: rgba(3,27,78,.7);
@@ -21,7 +33,7 @@
 .color_blu_link {
   color: #0069ff;
 }
-.nav_fixed a {
+.nav_fixed a, .b_tn a {
   text-decoration: none;
 }
 /* Fixed */
@@ -83,9 +95,101 @@ margin-left: 30px;
 /* Section1 */
 .section1 {
   width: 100%;
-  height: 650px;
   margin-top: 70px;
   background-image: url('background- blu.svg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+.section1 h1 {
+  font-size: 60px;
+  padding-top: 120px;
+  text-align: left;
+}
+.section1 p {
+  font-size: 20px;
+  padding-top: 20px;
+  opacity: .8;
+  text-align: left;
+}
+.sectio1_right {
+  width: 100%;
+  height: 450px;
+  border-radius: 5px;
+  margin: 120px 0;
+  padding-top: 15px;
+}
+.sectio1_right h2, span {
+  font-size: 30px;
+  font-weight: 700;
+}
+.form-control {
+  display: inline;
+  width: 80%;
+  height: 40px;
+  margin-top: 15px;
+}
+.b_tn {
+  width: 80%;
+  height: 50px;
+  margin-top: 15px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.b_tn a {
+  line-height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.sign {
+  border: 1px solid lightgrey;
+  padding-right: 0;
+}
+.sign img {
+  height: 25px;
+  width: 25px;
+  margin: 10px 0;
+  display: inline-block;
+}
+.account:hover {
+  background: blue;
+}
+.sign:hover {
+  background: lightgrey;
+}
+.sectio1_right_small {
+  margin-top: 25px;
+}
+@media screen and (max-width: 992px) {
+  .section1 h1 {
+    font-size: 45px;
+    padding-top: 120px;
+
+  }
+  .section1 p {
+    font-size: 20px;
+    padding-top: 20px;
+    opacity: .8;
+  }
+}
+/* Section2 */
+.section2 {
+  width: 100%;
+  height: auto;
+}
+.section2 h2{
+  opacity: .4;
+  font-size: 15px;
+  margin-top: 70px;
+}
+.icone img {
+ width: 105px;
+ margin: 0 20px;
+}
+.section2_link {
+margin-bottom: 30px;
+font-size: 17px;
+}
+.section2_link a:last-child {
+margin-left: 10px;
+
 }
