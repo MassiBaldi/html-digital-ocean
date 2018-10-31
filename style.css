@@ -197,6 +197,9 @@ margin-left: 30px;
 margin-bottom: 30px;
 font-size: 17px;
 }
+.section2_link > a {
+  text-decoration: none;
+}
 .section2_link a:last-child {
 margin-left: 10px;
 }
@@ -236,6 +239,13 @@ margin-left: 10px;
 .section3_list {
   list-style: none;
 }
+.linea {
+  height: 300px;
+  width: 2px;
+  background: lightgrey;
+  float: left;
+  margin-right: 10px;
+}
 .section3_list li {
   margin: 40px 0;
   font-size: 20px;
@@ -266,7 +276,10 @@ margin-left: 10px;
 }
 @media screen and (max-width: 992px) {
   .section3_list {
-    width: 100%;
+  width: 100%;
+  }
+  .section3_left {
+    margin-left: 0;
   }
 }
 /* Section4 */
@@ -286,6 +299,14 @@ margin-left: 10px;
 }
 .section4 img {
   width: 70%;
+}
+.minore, .maggiore {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+}
+.section4 a {
+  text-decoration: none
 }
 .circle {
   border: 2px solid #0069ff;
