@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-.content {
-  margin: 0 20px;
-}
 .bg_white {
   background: white;
 }
@@ -142,12 +139,10 @@ margin-left: 30px;
 }
 .sign {
   border: 1px solid lightgrey;
-  padding-right: 0;
 }
 .sign img {
   height: 25px;
   width: 25px;
-  margin: 10px 0;
   display: inline-block;
 }
 .account:hover {
@@ -163,7 +158,6 @@ margin-left: 30px;
   .section1 h1 {
     font-size: 45px;
     padding-top: 120px;
-
   }
   .section1 p {
     font-size: 20px;
@@ -182,7 +176,7 @@ margin-left: 30px;
   margin-top: 70px;
 }
 .icone img {
- width: 145px;
+ width: 130px;
  margin: 0 20px;
 }
 .section2_link {
@@ -191,6 +185,11 @@ font-size: 17px;
 }
 .section2_link a:last-child {
 margin-left: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .list_icon {
+    width: 30%;
+  }
 }
 /* section3 */
 .section3 {
