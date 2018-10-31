@@ -12,6 +12,9 @@
 .bg_blue {
   background: #0069ff;
 }
+.bg_pallino {
+  background: #0069ff;
+}
 .color_white {
   color: white;
 }
@@ -25,7 +28,7 @@
   color: rgba(3,27,78,.7);
 }
 .color_pallini {
-  color: rgba(3,27,78,.7);
+  color: #0069ff;
 }
 .color_blu_link {
   color: #0069ff;
@@ -265,4 +268,35 @@ margin-left: 10px;
   .section3_list {
     width: 100%;
   }
+}
+/* Section4 */
+.section4 {
+  width: 100%;
+}
+.section4 h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 70px;
+}
+.section4 p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(3,27,78,.7);
+  padding: 20px;
+}
+.section4 img {
+  width: 70%;
+}
+.circle {
+  border: 2px solid #0069ff;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 5px;
+  cursor: pointer;
+}
+.circle:hover {
+  background: #0069ff;
 }
