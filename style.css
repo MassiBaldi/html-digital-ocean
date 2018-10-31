@@ -139,11 +139,22 @@ margin-left: 30px;
 }
 .sign {
   border: 1px solid lightgrey;
+  position: relative;
+  cursor: pointer;
+}
+.account {
+  cursor: pointer;
 }
 .sign img {
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
   display: inline-block;
+  position: absolute;
+  left: 0;
+  margin: 10px 50px;
+}
+.sign a {
+  padding: 20px;
 }
 .account:hover {
   background: blue;
